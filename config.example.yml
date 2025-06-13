@@ -1,0 +1,16 @@
+authorized_clients:
+  web-client:
+    name: "Humbug Web Client"
+    token: "952aa3a6-48cd-4984-9100-9376b6a095be" # The token used for authentication.
+    enabled: true
+    scopes:
+      - "file:predict"
+      - "models:read"
+
+  mobile-app:
+    name: "Mobile App"
+    token: "f4b3c2a1-1a0e-4b2c-8d3e-9f6a5b4c3d2e"
+    enabled: true
+    scopes:
+      - "file:predict"
+      - "models:read"

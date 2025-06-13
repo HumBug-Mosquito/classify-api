@@ -1,0 +1,192 @@
+[
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 0,
+        "result": {
+            "timestamp_ms": 1748165687047,
+            "message": "Batch 0 - processed",
+            "event_detection": "{\"raw\":[4.014690247871138e-32],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":4.014690247871138e-32,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.1956368430001021}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 1,
+        "result": {
+            "timestamp_ms": 1748165687050,
+            "message": "Batch 1 - processed",
+            "event_detection": "{\"raw\":[5.044395123832146e-9],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":5.044395123832146e-9,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.1699092449998716}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 2,
+        "result": {
+            "timestamp_ms": 1748165687116,
+            "message": "Batch 2 - processed",
+            "event_detection": "{\"raw\":[0.8799794912338257],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.8799794912338257,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.06287091199919814}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 3,
+        "result": {
+            "timestamp_ms": 1748165687374,
+            "message": "Batch 3 - processed",
+            "event_detection": "{\"raw\":[1.237435895973249e-7],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":1.237435895973249e-7,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07391849599662237}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 4,
+        "result": {
+            "timestamp_ms": 1748165689401,
+            "message": "Batch 4 - processed",
+            "event_detection": "{\"raw\":[1.322103975336965e-15],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":1.322103975336965e-15,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.08137748499939335}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 5,
+        "result": {
+            "timestamp_ms": 1748165691398,
+            "message": "Batch 5 - processed",
+            "event_detection": "{\"raw\":[5.175086704653498e-15],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":5.175086704653498e-15,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07543031099703512}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 6,
+        "result": {
+            "timestamp_ms": 1748165693409,
+            "message": "Batch 6 - processed",
+            "event_detection": "{\"raw\":[0.0018522330792620778],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.0018522330792620778,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07016702300097677}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 7,
+        "result": {
+            "timestamp_ms": 1748165695429,
+            "message": "Batch 7 - processed",
+            "event_detection": "{\"raw\":[0.0005062101990915835],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.0005062101990915835,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07865773499725037}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 8,
+        "result": {
+            "timestamp_ms": 1748165697444,
+            "message": "Batch 8 - processed",
+            "event_detection": "{\"raw\":[0.00022093072766438127],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.00022093072766438127,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07987508699807222}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 9,
+        "result": {
+            "timestamp_ms": 1748165699477,
+            "message": "Batch 9 - processed",
+            "event_detection": "{\"raw\":[0.0002844184054993093],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.0002844184054993093,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.09703093000280205}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 10,
+        "result": {
+            "timestamp_ms": 1748165701454,
+            "message": "Batch 10 - processed",
+            "event_detection": "{\"raw\":[3.9179104760478367e-7],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":3.9179104760478367e-7,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.06568370500099263}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 11,
+        "result": {
+            "timestamp_ms": 1748165703461,
+            "message": "Batch 11 - processed",
+            "event_detection": "{\"raw\":[0.9997995495796204],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.9997995495796204,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.0631112499977462}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 12,
+        "result": {
+            "timestamp_ms": 1748165705489,
+            "message": "Batch 12 - processed",
+            "event_detection": "{\"raw\":[7.47084279205737e-14],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":7.47084279205737e-14,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.08069805699778954}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 13,
+        "result": {
+            "timestamp_ms": 1748165707488,
+            "message": "Batch 13 - processed",
+            "event_detection": "{\"raw\":[2.4523464856041066e-11],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":2.4523464856041066e-11,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.0710300360005931}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 14,
+        "result": {
+            "timestamp_ms": 1748165709509,
+            "message": "Batch 14 - processed",
+            "event_detection": "{\"raw\":[9.366846707992149e-12],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":9.366846707992149e-12,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07895861500219326}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 15,
+        "result": {
+            "timestamp_ms": 1748165711517,
+            "message": "Batch 15 - processed",
+            "event_detection": "{\"raw\":[5.3087021001374524e-8],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":5.3087021001374524e-8,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07868494400099735}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 16,
+        "result": {
+            "timestamp_ms": 1748165713529,
+            "message": "Batch 16 - processed",
+            "event_detection": "{\"raw\":[0.22472915053367615],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.22472915053367615,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07889348800017615}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 17,
+        "result": {
+            "timestamp_ms": 1748165715537,
+            "message": "Batch 17 - processed",
+            "event_detection": "{\"raw\":[2.419337306491798e-6],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":2.419337306491798e-6,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07734871600041515}",
+            "species_detection": null
+        }
+    },
+    {
+        "session_id": "9a587659-31fd-4a91-8bdc-8cae21bac254",
+        "sequence": 18,
+        "result": {
+            "timestamp_ms": 1748165717543,
+            "message": "Batch 18 - processed",
+            "event_detection": "{\"raw\":[0.16635958850383759],\"species\":\"mosquito\",\"segments\":[{\"species\":\"mosquito\",\"start\":0.0,\"end\":1.0,\"probability\":0.16635958850383759,\"classification_interval\":1.0}],\"model\":\"med-1\",\"time_taken\":0.07126633100051549}",
+            "species_detection": null
+        }
+    }
+]
