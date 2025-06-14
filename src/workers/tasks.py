@@ -18,7 +18,7 @@ from src.lib.utils import get_audio_from_file, get_duration, resample_audio
 from src.workers.celery_app import celery_app
 
 # --- In-memory Storage ---
-storage = {
+worker_storage = {
     "models": {},
     "authorized_api_keys": list[str]
 }
@@ -31,11 +31,11 @@ redis_client = redis.Redis.from_url(
 )
 
 def load_models():
-    if storage["models"]:
+    if worker_storage["models"]:
         return
     logger.info("Loading models in worker...")
     med = Med1(); med.load()
-    storage["models"]["med-1"] = med
+    worker_storage["models"]["med-1"] = med
     # (Optional) load species models here
 
 class BaseTaskWithModels(Task):
@@ -59,12 +59,12 @@ def process_audio(
     audio_array, sample_rate = get_audio_from_file(audio_file)
 
     # Fetch models
-    event_model: SupportedModel = storage["models"].get(event_model_name)
+    event_model: SupportedModel = worker_storage["models"].get(event_model_name)
     if not event_model:
         raise ValueError(f"Event model '{event_model_name}' not found")
     species_model: Optional[SupportedModel] = None
     if species_model_name:
-        species_model = storage["models"].get(species_model_name)
+        species_model = worker_storage["models"].get(species_model_name)
 
     # Ensure duration
     duration = get_duration(audio_array, sample_rate)

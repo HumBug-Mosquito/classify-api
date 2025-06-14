@@ -10,3 +10,4 @@ pydantic>=2.7.0,<3.0.0
 torch>=2.0.0       
 scikit-image
 torchlibrosa==0.1.0
+aioredis>=2.0.0

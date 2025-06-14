@@ -1,18 +1,17 @@
+.PHONY: dev deploy clean test
 
-.PHONY: dev prod clean test
-
-test: 
+test:
 	python test/ws_client.py \
 		--url ws://localhost:8000/ws/stream \
 		--file path/to/audio.wav \
 		--chunk-duration 2.0
 
 dev:
-    docker-compose up api
+	docker compose up --build --force-recreate --remove-orphans --detach
 
-prod:
-    API_TOKEN=${API_TOKEN} AUTHORIZED_CLIENTS=${AUTHORIZED_CLIENTS} \
-      docker-compose up --build
+deploy:
+	git commit --allow-empty -m "CI Trigger: $(shell date +%Y-%m-%dT%H:%M:%S)"
+	git push ci
 
 clean:
-    docker compose down --volumes --remove-orphans
+	docker compose down --volumes --remove-orphans

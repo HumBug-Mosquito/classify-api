@@ -33,6 +33,10 @@ def run_prediction(
     duration = get_duration(audio, sample_rate)
     if duration < event_model.requirements.min_duration:
         raise ValueError("Audio chunk too short for model requirements")
+    
+    logger.info(
+        f"Running prediction with {event_model.name} on audio of duration {duration:.2f}s at sample rate {sample_rate}Hz"
+    )
 
     if sample_rate != event_model.requirements.sample_rate:
         audio = resample_audio(
@@ -42,6 +46,10 @@ def run_prediction(
         )
 
     event_results = event_model.predict(audio)
+
+    logger.info(f"Event detection completed with {event_model.name}")
+    logger.info(f"Event detection results: {event_results}")
+    
     species_results = None
     if species_model:
         # Placeholder for species detection logic
