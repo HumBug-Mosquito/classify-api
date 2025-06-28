@@ -1,0 +1,971 @@
+[
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 0 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 2.24292107304791e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.000719421252142638,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0015834844671189785,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.0001815404393710196,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          2.24292107304791e-05,
+          0.000719421252142638,
+          0.0015834844671189785,
+          0.0001815404393710196
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 0
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 1 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 5.14115117766778e-06,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.0006214153836481273,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 8.872461330611259e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.0009132848936133087,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          5.14115117766778e-06,
+          0.0006214153836481273,
+          8.872461330611259e-05,
+          0.0009132848936133087
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 1
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 2 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.012717606499791145,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.008109007030725479,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0001275068789254874,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.9986469149589539,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.012717606499791145,
+          0.008109007030725479,
+          0.0001275068789254874,
+          0.9986469149589539
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 2
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 3 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 6.85479972162284e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 3.5040675356867723e-06,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 7.6010746852261946e-06,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.002881539985537529,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          6.85479972162284e-05,
+          3.5040675356867723e-06,
+          7.6010746852261946e-06,
+          0.002881539985537529
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 3
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 4 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.3011489808559418,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.0004233143699821085,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.001749773626215756,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.018370797857642174,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.3011489808559418,
+          0.0004233143699821085,
+          0.001749773626215756,
+          0.018370797857642174
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 4
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 5 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.0035369195975363255,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.4347897469997406,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 3.784436557907611e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.0031482158228754997,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.0035369195975363255,
+          0.4347897469997406,
+          3.784436557907611e-05,
+          0.0031482158228754997
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 5
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 6 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.00015761937538627535,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 7.996651402208954e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.00011209548392798752,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 7.068192644510418e-05,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.00015761937538627535,
+          7.996651402208954e-05,
+          0.00011209548392798752,
+          7.068192644510418e-05
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 6
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 7 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 9.483419125899673e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 7.292071677511558e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0001240202400367707,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 2.0915011191391386e-05,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          9.483419125899673e-05,
+          7.292071677511558e-05,
+          0.0001240202400367707,
+          2.0915011191391386e-05
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 7
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 8 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 9.389816841576248e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.00010931786528090015,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0006250133155845106,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 7.660414121346548e-05,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          9.389816841576248e-05,
+          0.00010931786528090015,
+          0.0006250133155845106,
+          7.660414121346548e-05
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 8
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 9 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.00031687645241618156,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.00022156145132612437,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 2.165933619835414e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 7.377220754278824e-06,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.00031687645241618156,
+          0.00022156145132612437,
+          2.165933619835414e-05,
+          7.377220754278824e-06
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 9
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 10 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.30820727348327637,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.0006173165747895837,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0017090026522055268,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 4.169006206211634e-05,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.30820727348327637,
+          0.0006173165747895837,
+          0.0017090026522055268,
+          4.169006206211634e-05
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 10
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 11 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 1.507404613221297e-05,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 3.499979811749654e-06,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.00014954166545066983,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.4027855396270752,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          1.507404613221297e-05,
+          3.499979811749654e-06,
+          0.00014954166545066983,
+          0.4027855396270752
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 11
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 12 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.059476111084222794,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.00034329050686210394,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.07113079726696014,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.03333013504743576,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.059476111084222794,
+          0.00034329050686210394,
+          0.07113079726696014,
+          0.03333013504743576
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 12
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 13 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.001773583935573697,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.911410927772522,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 2.4077066882455256e-06,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 9.065272934094537e-06,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.001773583935573697,
+          0.911410927772522,
+          2.4077066882455256e-06,
+          9.065272934094537e-06
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 13
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 14 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.0007126385462470353,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.0009762745467014611,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.00025898980675265193,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.0469319224357605,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.0007126385462470353,
+          0.0009762745467014611,
+          0.00025898980675265193,
+          0.0469319224357605
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 14
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 15 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.001165062072686851,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.011149716563522816,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0012337180087342858,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.009510490112006664,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.001165062072686851,
+          0.011149716563522816,
+          0.0012337180087342858,
+          0.009510490112006664
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 15
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 16 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.0012851119972765446,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.0014109006151556969,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0005261607584543526,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.007739839609712362,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.0012851119972765446,
+          0.0014109006151556969,
+          0.0005261607584543526,
+          0.007739839609712362
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 16
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 17 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.00045659238821826875,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.0016776082338765264,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.0012025372125208378,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 0.1658945232629776,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.00045659238821826875,
+          0.0016776082338765264,
+          0.0012025372125208378,
+          0.1658945232629776
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 17
+    }
+  },
+  {
+    "type": "success.batch",
+    "metadata": {
+      "request_id": "ffe7e7e2-35eb-4fb5-823d-67631455b959",
+      "timestamp": "2025-06-28T14:14:27.157284",
+      "params": {}
+    },
+    "payload": {
+      "message": "Chunk 18 processed successfully.",
+      "steps_completed": {
+        "vad": "Voice was removed from the audio clips"
+      },
+      "event_detection": {
+        "model_name": "med-mtrcnn-1",
+        "predictions": [
+          {
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "confidence": 0.0013891032431274652,
+            "contains_voice": false
+          },
+          {
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "confidence": 0.0002277501771459356,
+            "contains_voice": false
+          },
+          {
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "confidence": 0.00022648533922620118,
+            "contains_voice": false
+          },
+          {
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "confidence": 7.568907312816009e-05,
+            "contains_voice": false
+          }
+        ],
+        "raw": [
+          0.0013891032431274652,
+          0.0002277501771459356,
+          0.00022648533922620118,
+          7.568907312816009e-05
+        ]
+      },
+      "species_detection": null,
+      "chunk_index": 18
+    }
+  }
+]

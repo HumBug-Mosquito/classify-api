@@ -1,0 +1,14 @@
+include:
+  - "*.py"
+  - "common/"
+  - "normalization/"
+python:
+  packages:
+    - torch
+    - torchvision
+    - torchaudio
+    - numpy
+    - librosa
+    - pyloudnorm
+    - resampy
+    - silero_vad

@@ -1,0 +1,29 @@
+name: msc_dat_cnn4_v19
+version: 7dsj2scpkc4ylcre
+module: bentoml.pytorch
+labels:
+  type: MSC
+  framework: pytorch
+options:
+  partial_kwargs: {}
+metadata:
+  model_id: msc_dat_cnn4_v19
+  type: MSC
+  architecture: DAT_CNN4
+  description: Mosquito Species Classification (MSC) model using a Domain Adversarial
+    Training (DAT) CNN.
+  source_pth: 19_new2_4_two_branches_CNN4_DAT_no_allbalance.pth
+  required_steps:
+  - VAD
+  - MED
+context:
+  framework_name: torch
+  framework_versions:
+    torch: 2.7.1
+  bentoml_version: 1.4.16
+  python_version: 3.13.3
+signatures:
+  __call__:
+    batchable: false
+api_version: v1
+creation_time: '2025-06-22T10:09:24.020526+00:00'

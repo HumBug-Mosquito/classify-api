@@ -1,0 +1,15 @@
+{
+    "configurations": [
+    {
+        "type": "debugpy",
+        "request": "launch",
+        "name": "Run BentoML Service",
+        "module": "bentoml",
+        "env": {
+            "BENTOML_HOME": "${workspaceFolder}/.bentoml"
+        },
+        "cwd": "${workspaceFolder}/services/med-mtrcnn-1/",
+        "args": ["serve","--port", "3000", "--reload"],
+    }
+    ]
+}

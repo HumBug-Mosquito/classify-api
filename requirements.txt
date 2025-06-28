@@ -5,9 +5,12 @@ redis>=4.2.0
 numpy>=1.24.0
 soundfile>=0.11.0
 python-multipart>=0.0.6
-librosa
+librosa>=0.11.0
 pydantic>=2.7.0,<3.0.0
 torch>=2.0.0       
 scikit-image
 torchlibrosa==0.1.0
 aioredis>=2.0.0
+bentoml>=1.4.3
+pyloudnorm>=0.1.1
+silero_vad>=0.1.0

@@ -1,0 +1,29 @@
+name: msc_dat_mtrcnn_c2di_v19_no_domain
+version: 7etpidspkc4ylcre
+module: bentoml.pytorch
+labels:
+  type: MSC
+  framework: pytorch
+options:
+  partial_kwargs: {}
+metadata:
+  model_id: msc_dat_mtrcnn_c2di_v19_no_domain
+  type: MSC
+  architecture: DAT_MTRCNN_C2di
+  description: MSC model using a Domain Adversarial Training (DAT) MTRCNN architecture
+    (no domain balancing).
+  source_pth: 19_new2_4_two_branches_DAT_MTRCNN_no_doamin_balance_best_training_acc.pth
+  required_steps:
+  - VAD
+  - MED
+context:
+  framework_name: torch
+  framework_versions:
+    torch: 2.7.1
+  bentoml_version: 1.4.16
+  python_version: 3.13.3
+signatures:
+  __call__:
+    batchable: false
+api_version: v1
+creation_time: '2025-06-22T10:09:24.455245+00:00'

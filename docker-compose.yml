@@ -1,44 +1,10 @@
 services:
-    redis:
-        image: redis:7-alpine
-        container_name: classify_redis
-        ports:
-            - '6379:6379'
 
-    api:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        container_name: classify_api
-        command: >
-            uvicorn src.api.main:app
-            --host 0.0.0.0
-            --port 8000
-            --reload
-        working_dir: /app
-        volumes:
-            - .:/app:cached
-        environment:
-            - REDIS_URL=redis://redis:6379/0
-            - CELERY_BROKER_URL=redis://redis:6379/0
-            - PYTHONPATH=/app/src:/app/workers
+    nginx:
+        image: nginx:latest
         ports:
-            - '8000:8000'
-        depends_on:
-            - redis
-
-    worker:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        container_name: classify_worker
-        command: celery -A workers.tasks worker --loglevel=info --concurrency=2
-        working_dir: /app
+            - "80:80"
         volumes:
-            - .:/app:cached
-        environment:
-            REDIS_URL: redis://redis:6379/0
-            CELERY_BROKER_URL: redis://redis:6379/0
-            PYTHONPATH: /app/src:/app/workers
-        depends_on:
-            - redis
+            - ./nginx.conf:/etc/nginx/nginx.conf
+        networks:
+            - webnet
